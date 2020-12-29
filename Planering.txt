@@ -1,0 +1,22 @@
+
+Namn: 
+Antal sidor: 4 
+Business: Musikband
+Font: 
+Keywords: music genre, band, country/city.
+Färgschema: mörka-toner i bakgrunden.
+Personer: Christopher, Richard, Stefan, Jonte
+
+Sida 1: Startsidan  -- > tour dates, spotifyhuvudsida/youtube mer subscrive länkar, kortfattat bandet + länk till about us. sociala-medier.
+Sida 2: Contacts -- > sociala/medier + mail/telefon/contactform.
+Sida 3: produkt -- > youtube videos, spotify listor. 
+Sida 4: About us -- > bandets historia, varje person i bandet info.
+
+
+
+Chrilleeeeeeee koooood-tankar:
+
+1) Skapa bakgrunden + navbar + footer först. (detta kan vi sen kopiera till samtliga sidor)
+2) Skapa produkt-sidan, länka till två - tre youtube videos. Skapa en flexbox för detta (?). Samt spotifylista.
+3) Skapa contact-sida. Länka till samtliga sociala-medier, samt ha ne contact-form för kunna boka oss eller bara kontakta.
+4) About us page. Ha en text om bandet hur vi uppstod, samt ha fyra visuella bilder på vajre medlem med info om personen.
