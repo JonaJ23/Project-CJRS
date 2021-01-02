@@ -1,0 +1,35 @@
+.title{
+   font: 40px 'Arial Narrow', sans-serif;
+  color:#dc006c;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px black; /* width and color of border */
+  text-transform: uppercase;
+  letter-spacing: -4px;
+   position: relative;
+}
+
+/* Stuff to help with cutting of title/header on the sides */
+.title:before,
+.title:after {
+  content: '';
+  position: absolute;
+  border-width: 20px;/* Väljer vart de ska "cuttas" i title*/
+  border-style: solid;
+  border-color: transparent;
+  height: 0;
+  z-index: 10;
+}
+/* Where it will begin to cut and end cut in title */
+.title:before
+{
+  left: -4px;
+  top: -6px;
+  border-top-color: #343A40;
+  border-left-color: #343A40;
+}
+.title:after{
+   right: -4px;  
+  bottom: 4px;
+  border-bottom-color: #343A40;
+  border-right-color: #343A40;
+}
