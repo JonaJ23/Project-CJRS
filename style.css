@@ -38,7 +38,7 @@
  /* Design for tour-date box */
 
  /* title for tour-date */
- .container .col-title {
+ .container .one {
    color: #54d6ab9d;; 
    -webkit-text-stroke: 1px black; /* -webit ger border runt texten. */
    /* margin-left: 500px  */ /* Kommenterat bort den tillsvidare då de skevar när man försminskar fönstret. men detta centerar texten i fullscreen. Kan lösas genom media quiries I guess.*/ 
