@@ -54,4 +54,49 @@
      border: 2px solid rgba(0, 0, 0, 0.6);
  }
  
- 
+ .fa {
+  padding: 20px;
+  width: 65px;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-spotify{
+  background: black;
+  color: lightgreen;
+}
+
+.icon-container{
+  text-align: center;
+}
+
+.ReadMoreButton{
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border-color:black;
+}
+
+.ReadMoreButton:hover{
+  border-color: #54d6ab9d;
+  color: #54d6ab9d; 
+}
