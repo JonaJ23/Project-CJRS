@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
 </head>
 <body>
@@ -34,16 +33,20 @@
   </div>  
 </nav>
 
-<div class="container" style="margin-top:50px;">
+ <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://vod-progressive.akamaized.net/exp=1609763374~acl=%2A%2F556205481.mp4%2A~hmac=7168f59498e05caea5539aded2d3fb756283b32fb3482320879fd8235160fb25/vimeo-prod-skyfire-std-us/01/4486/6/172431736/556205481.mp4" type="video/mp4">
+  </video>
+
+<div class="container" style="margin-top:80px;">
  
  <div class="row" style="max-width:2500px; text-align: center;">
-    <div class="col one " style= "background-color: rgba(0, 0, 0, 0.7); max-width: 30 0px; "><h2>Tour&nbsp;Dates<h2></div>
+    <div class="col one"><h2>Tour&nbsp;Dates<h2></div>
     <div class="w-100"></div>
   <div class="col bordered" style="background-color: rgba(0, 0, 0, 0.6); text-decoration-color:white;">Country</div>
   <div class="col bordered" style="background-color: rgba(0, 0, 0, 0.6); text-decoration-color:white;">Date</div>
      <div class="w-100"></div>
-     <!-- Line-through för att dra linje i texten -->
-  <div class="col bordered " style="background-color: rgba(0, 0, 0, 0.4); text-decoration-color:white; text-decoration: line-through;">Sweden - Stockholm</div> 
+  <div class="col bordered " style="background-color: rgba(0, 0, 0, 0.4); text-decoration-color:white; text-decoration: line-through;">Sweden - Stockholm</div>
   <div class="col bordered" style="background-color: rgba(0, 0, 0, 0.4); text-decoration-color:white;  text-decoration: line-through;">2021-01-01 18:00</div>
      <div class="w-100"></div>
   <div class="col bordered" style="background-color: rgba(0, 0, 0, 0.4); text-decoration-color:white;">Sweden - Göteborg</div>
@@ -69,55 +72,57 @@
     <div class="w-100"></div>
   <div class="col bordered" style="background-color: rgba(0, 0, 0, 0.4); text-decoration-color:white;">England - London</div>
   <div class="col bordered" style="background-color: rgba(0, 0, 0, 0.4); text-decoration-color:white;">2021-14-20 19:00</div>
+    <div class="w-100"></div>
+  <!--TICKETS-->
+<button class="TicketsButton" onclick="window.location.href='https://www.youtube.com/watch?v=Vefp3ITBu1I';" style="margin-left:43.8%">Buy tickets</button>
 </div>
 </div>
-
 
 <!-- Social-media and About us -->
-<div class="container d-flex" style="margin-top: 200px;">
-  <div class="container" style="max-width:318px; margin-left:100px;">
-      <div class="row" style="text-align: center;">
-          <div class="col one">
-             <h2> Social Media </h2>
+<div class="container d-flex" style="margin-top: 100px;">
+    <div class="container" style="max-width:400px; margin-left:25px;">
+        <div class="row" style="text-align: center;">
+            <div class="col one">
+               <h2> Social Media </h2>
+            </div>
+            <div class="w-100"></div>
+          <div class="icon-container" style="margin-left: 10%;">
+             <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook" style="font-size:34px;"></a>
+             <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter" style="font-size:34px;"></a>
+             <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube" style="font-size:34px;"></a>
+             <a href="https://www.spotify.com" target="_blank" class="fa fa-spotify" style="font-size:34px;"></a>
           </div>
-          <div class="w-100"></div>
-        <div class="icon-container">
-           <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook" style="font-size:34px;"></a>
-           <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter" style="font-size:34px;"></a>
-           <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube" style="font-size:34px;"></a>
-           <a href="https://www.spotify.com" target="_blank" class="fa fa-spotify" style="font-size:34px;"></a>
         </div>
-      </div>
-  </div>
-  <div class="container" style="max-width:200px">
-      <div class="row" style="opacity:0%;">
-          <div class="col">
-              Container Left
-          </div>
-      </div>
-  </div>
-  <div class="container">
-      <div class="row" style="text-align: center;">
-          <div class="col one">
-             <h2> About Us </h2>
-          </div>
-          <div class="w-100" ></div>
-          <p >Story of blablabla</p>
-          <div class="w-100"></div>
-          <button class="ReadMoreButton">Read more</button>
-      </div>
-  </div>
+    </div>
+    <div class="container" style="max-width:100px">
+        <div class="row" style="opacity:0%;">
+            <div class="col">
+                Container Left
+            </div>
+        </div>
+    </div>
+    <div class="container" style="max-width: 400px">
+        <div class="row" style="text-align: center;">
+            <div class="col one">
+               <h2> About Us </h2>
+            </div>
+            <div class="w-100" ></div>
+            <p >Story of blablabla blablalbalbalbalbalbalbalbalb albalbalbalblabla blabablablablabl
+              blab
+            </p>
+            <div class="w-100"></div>
+            <button class="ReadMoreButton" style="margin-left: 40%;">Read more</button>
+        </div>
+    </div>
 </div>
 
-
+</body>
 
 <!-- FOOTER -->
 <footer>
-  <div class="text-center p-3 fixed-bottom" style="background-color: rgba(0, 0, 0, 0.2)">
+  <div class="text-center p-3 fixed-bottom" style="background-color: rgba(200,200,200,100);">
     © 2020 Copyright:
     <a class="text-dark" href="#">ChrisBandCamp</a>
   </div>
 </footer>
-
-</body>
 </html>
