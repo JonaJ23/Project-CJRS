@@ -32,6 +32,12 @@
    border-bottom-color: #343A40;
    border-right-color: #343A40;
  }
+
+ /* Makes it so that video is responsive */
+body {
+    position: relative;
+    background-color: rgba(200,200,200,100);
+  }
  
  /* Video background*/
  body video {
@@ -48,8 +54,9 @@
    -webkit-transform: translateX(-50%) translateY(-50%);
    transform: translateX(-50%) translateY(-50%);
  }
- 
- 
+
+
+/* Fixes the design for the boxes on the page */ 
  .one {
    color: #54d6ab9d; 
    -webkit-text-stroke: 1px black;
@@ -119,6 +126,7 @@
    text-align: center;
  }
  
+ /* Button for about us */
  .ReadMoreButton{
    background-color: rgba(0,0,0,0);
    color: white;
@@ -130,6 +138,7 @@
    color: #54d6ab9d; 
  }
  
+ /* Button for buy tickets*/
  .TicketsButton{
    background-color: rgba(180, 16, 16, 0.548);
    color: white;
