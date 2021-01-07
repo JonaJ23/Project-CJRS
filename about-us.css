@@ -49,9 +49,21 @@
     position: relative;
     text-align: center;
  }
- /* Här vill jag fixa så member cards hamnar mer åt höger/vänster sen kör vi bubbelbild eller nåt liknande på varje medlem på då motsvarande sida.*/
- .wholeMemeber {
- }
+ 
+
+ .row {
+    margin-left: 45%;
+  }
+  
+  /* Here we make each row at different margin from left. */
+  .row:nth-child(odd) {
+    margin-left: 20%;
+  }
+  
+  .row:nth-chid(even) {
+    margin-left: 55%;
+  }
+  
  
  .card-title-member {
  
