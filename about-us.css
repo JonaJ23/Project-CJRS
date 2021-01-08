@@ -32,76 +32,79 @@
    border-bottom-color: #343A40;
    border-right-color: #343A40;
  }
+ 
+ 
  /* cards for body */
  .card {
-         margin: 0 auto; 
-         float: none; 
-         margin-bottom: 10px; 
-         margin-top: 70px;
+   margin: 0 auto; 
+   float: center; 
+   margin-bottom: 10px; 
+   margin-top: 70px;
+   border: 1px solid;
+   border-color:black;
  }
+ 
+ 
  .card-title {
    font: 40px 'Arial Narrow', sans-serif;
    color:#54d6ab9d;
    font-weight: bolder;
    -webkit-text-stroke: 1.5px black; /* width and color of border */
    text-transform: uppercase;
-   letter-spacing: -4px;
-    position: relative;
+   letter-spacing: -1px;
     text-align: center;
+ } 
+ 
+ .container {
+   max-width: 70%;
  }
  
-
  .row {
-    margin-left: 45%;
-  }
-  
-  /* Here we make each row at different margin from left. */
-  .row:nth-child(odd) {
-    margin-left: 20%;
-  }
-  
-  .row:nth-chid(even) {
-    margin-left: 55%;
-  }
-  
+   margin-left: 30%;
+   max-width: 600px;
+ }
+ 
+ 
+ /* Here we make each row at different margin from left. */
+ .row:nth-child(odd) {
+   margin-left: 20%;
+ }
+ 
+ .row:nth-chid(even) {
+   margin-left: 20%;
+ }
  
  .card-title-member {
- 
      font: 32px 'Arial Narrow', sans-serif;
    color:#54d6ab9d;
    font-weight: bolder;
    -webkit-text-stroke: 1.5px black; /* width and color of border */
    text-transform: uppercase;
-   letter-spacing: -2px;
+   letter-spacing: 1px;
     position: relative;
     text-align: center;
- 
  }
  
  .card-text, .card-text-member {
- 
-   color: #343A40;
+   color: white;
    text-align: center;
    font-weight: 500;
  }
  
- 
- 
+ .img-fluid
+ {
+   max-width: 100%;
+   height: auto;
+   border-radius: 10px;
+   margin-top: 30px;
+ }
  
  /* Makes it so that video is responsive */
   body {
-   position: relative;
+    position: relative;
    background-color: rgb(68, 68, 68);
   }
  
- .container .row {
-   color: white;
-   
- }
- 
- .one{
- color: white;
- }
  
  .fa {
    padding: 5px;
