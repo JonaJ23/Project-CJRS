@@ -5,37 +5,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 
   <!-- NAVBAR -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="title" href="#">CodePlay</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark ml-auto">
+  <a class="title" href="index.html">CodePlay</a>
+
+   <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" >
-    <ul class="navbar-nav ml-auto"> <!-- right side -->
+  <div  class="collapse navbar-collapse" id="collapsibleNavbar" >
+    <ul class="navbar-nav ml-auto" > <!-- right side -->
       <li class="nav-item">
-        <a class="nav-link" href="#">Music</a>
+        <a class="nav-link" href="music.html">Music</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://127.0.0.1:5500/about-us.html">About</a>
+        <a class="nav-link" href="about.html">About</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+      <li class="nav-item ">
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>    
     </ul>
   </div>  
 </nav>
 
+
+
  <div class="overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="https://r4---sn-30a7yn7y.googlevideo.com/videoplayback?expire=1609862664&ei=qDn0X7PGAY3I7gP8gpCQAQ&ip=175.138.134.185&id=o-AHmv1NXehvfY6BkKEReQ1-1vjIE3fYW1x1FLaJ4QoB1L&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&ns=JrJnSmgEz4ZQDx23Gi4-OlEF&gir=yes&clen=74636540&dur=186.644&lmt=1575004924487703&fvip=4&keepalive=yes&c=WEB&txp=5535432&n=ZQ8kT8WicTGRMSE3&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAOYdbP_bzcXcjtZcqO6zbgfh29bvFP86u4bNTlIWVPoAAiEA8VquzK94dN_72ZyhYhDTwIL80qULPiu4EpP3eNw3C5Y%3D&redirect_counter=1&rm=sn-uh-h31l7r&req_id=42ecf9ee68d5a3ee&cms_redirect=yes&ipbypass=yes&mh=-t&mm=29&mn=sn-30a7yn7y&ms=rdu&mt=1609842044&mv=m&mvi=4&pl=24&lsparams=ipbypass,mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAIZZFr4ZlSlRwwCqRUR5JZOlkU8hgPM6-XGrkd5pIG_fAiBYWOeowfTxx1AJpMUU0Dm944iRd2QNdrZbp7tTLn4QOw%3D%3D" type="video/mp4">
+    <source src="Video/LinkingPark.mp4" type="video/mp4">
   </video>
 
 <div class="container" style="margin-top:80px;">
@@ -73,6 +80,7 @@
   <div class="col bordered" style="background-color: rgba(0, 0, 0, 0.4); text-decoration-color:white;">England - London</div>
   <div class="col bordered" style="background-color: rgba(0, 0, 0, 0.4); text-decoration-color:white;">2021-14-20 19:00</div>
     <div class="w-100"></div>
+    
   <!--TICKETS-->
 <button class="TicketsButton" onclick="window.location.href='https://www.youtube.com/watch?v=Vefp3ITBu1I';" style="margin-left:43.8%">Buy tickets</button>
 </div>
@@ -107,10 +115,10 @@
                <h2> About Us </h2>
             </div>
             <div class="w-100" ></div>
-            <p >We're the delicious boys of Codeplay and are here to entertain you and the whole world. ❤️
+            <p >We're the delicious music band of Codeplay and are here to entertain you and the whole world as we go on tour to see you❤️
             </p>
             <div class="w-100"></div>
-            <button class="ReadMoreButton" onclick="window.location.href='http://127.0.0.1:5500/about-us.html';" style="margin-left: 40%;">Read more</button>
+            <button class="ReadMoreButton" onclick="window.location.href='about.html';" style="margin-left: 38%;">Read more</button>
         </div>
     </div>
 </div>
@@ -119,9 +127,17 @@
 
 <!-- FOOTER -->
 <footer>
+  
   <div class="text-center p-3 fixed-bottom" style="background-color: rgba(200,200,200,100);">
     © 2020 Copyright:
-    <a class="text-dark" href="#">ChrisBandCamp</a>
-  </div>
+    <a class="text-dark" href="#">Codeplay
+  <div class="icon-container fixed-bottom" style="z-index: -1;">
+             <a href="https://www.facebook.com" target="_blank" class="footerf fa fa-facebook" style="font-size:30px;"></a>
+             <a href="https://www.twitter.com" target="_blank" class="footert fa fa-twitter" style="font-size:30px;"></a>
+             <a href="https://www.youtube.com" target="_blank" class="footery fa fa-youtube" style="font-size:30px;"></a>
+             <a href="https://www.spotify.com" target="_blank" class="footers fa fa-spotify" style="font-size:30px;"></a>
+             </a>
+  </div>          
+  
 </footer>
 </html>
