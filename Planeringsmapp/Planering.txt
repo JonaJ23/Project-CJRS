@@ -2,8 +2,7 @@
 Namn: 
 Antal sidor: 4 
 Business: Musikband
-Font: 
-Keywords: music genre, band, country/city.
+Keywords: Codeplay, boyband, music.
 Färgschema: mörka-toner i bakgrunden.
 Personer: Christopher, Richard, Stefan, Jonte
 
